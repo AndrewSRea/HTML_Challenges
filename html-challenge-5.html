@@ -4,6 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HTML Challenge 5</title>
+        <style>
+            li {
+                margin-top: 5px;
+            }
+            button {
+                margin: 0 5px 5px 0;
+            }
+        </style>
     </head>
     <body>
         <form>
@@ -55,6 +63,14 @@
                     <label for="55wpm">55 words per minute</label>
                     <input type="radio" id="60wpm" name="wpm" value="60wpm">
                     <label for="60wpm">60 words per minute</label>
+                </li>
+                <li>
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="5" cols="33">Leave us a comment...</textarea>
+                </li>
+                <li>
+                    <button name="reset">Reset Form</button>
+                    <button name="submit">Submit</button>
                 </li>
             </ul>
         </form>
