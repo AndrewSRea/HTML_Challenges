@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Challenge 5</title>
+    </head>
+    <body>
+        <form>
+            <ul style="list-style-type:none;">
+                <li>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname">
+                </li>
+                <li>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname">
+                </li>
+                <li>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address">
+                </li>
+                <li>
+                    <label for="gender">Gender: Male</label>
+                    <input type="radio" id="gender" name="gender" value="Male">
+                    <label for="gender">Female</label>
+                    <input type="radio" id="gender" name="gender" value="Female">
+                </li>
+                <li>
+                    <label for="birthdate">Date of Birth:</label>
+                    <input type="date" id="birthdate" name="birthdate" 
+                           value="2020-10-21"
+                           min="1910-01-01" max="2020-10-21">
+                </li>
+                <li>
+                    <label for="password">Password:</label>
+                    <input type="password" id="pwd" name="password" minlength="8" required>
+                </li>
+                <li>
+                    <label for="yesorno">Do you own a laptop or a desktop computer?</label>
+                    <select>
+                        <option>Laptop</option>
+                        <option>Desktop</option>
+                    </select>
+                </li>
+                <li>
+                    <p>How many words per minute can you type?</p>
+                    <input type="radio" id="40wpm" name="wpm" value="40wpm" checked>
+                    <label for="40wpm">40 words per minute</label>
+                    <input type="radio" id="45wpm" name="wpm" value="45wpm">
+                    <label for="45wpm">45 words per minute</label>
+                    <input type="radio" id="50wpm" name="wpm" value="50wpm">
+                    <label for="50wpm">50 words per minute</label>
+                    <input type="radio" id="55wpm" name="wpm" value="55wpm">
+                    <label for="55wpm">55 words per minute</label>
+                    <input type="radio" id="60wpm" name="wpm" value="60wpm">
+                    <label for="60wpm">60 words per minute</label>
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>
